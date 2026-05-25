@@ -29,12 +29,12 @@ nav ul li {
     margin: 0 10px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgb(0, 255, 255);
     font-size: 17px;
 }
@@ -42,3 +42,59 @@ nav ul li a:hover{
 .left {
     font-size: 22px;
 }
+
+/* HERO SECTION */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px 10%;
+
+    min-height: 90vh;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero-text h2 {
+    font-size: 30px;
+    color: #00bfff;
+
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+
+    background: #00bfff;
+
+    color: white;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+}
+
+.hero-image img {
+    width: 300px;
+
+    border-radius: 50%;
+}
+
+
